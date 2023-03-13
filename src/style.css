@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+body{
+    font-family: 'Cinzel', serif;
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    font-weight:400
+    
+
+}
+#lint  a{
+   display: flex;
+   float: right;
+   padding: 20px ;
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#lint a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 210, 15) ;
+    text-underline-offset: 9px;
+}
+
+
+    
+   
+   
+   
+    
+
+.main {
+    
+    color:rgb(235, 235, 235);
+    justify-content: left;
+    font-weight: 400px;
+    font-size: 30px;
+     height: 80vh;
+    padding: 140px 40px 70px 80px;
+
+}
+.second{
+    display: flex;
+    color:rgb(245, 245, 245);
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.second:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 210, 15) ;
+    text-underline-offset: 9px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly ;
+    padding: 50px;
+    margin: 50px;
+    text-decoration-style: dotted;
+    
+}
+.and{
+    font-size: 160px;
+    color:rgb(240, 210, 15) ;
+}
+
+.socials{
+    width: 100px;
+    height: 320px;
+    background-color: rgb(240, 210, 15);
+    border-radius: 30px 0 0 30px;
+    position: fixed;
+    right: 0;
+    top: 27vh;
+}
+@media only screen and (max-width: 600px) {
+    .socials {
+        display: none;
+    }
+    }
+    
+    .social {
+        width: 100%;
+        height: 26%;
+    }
+    .writing{
+        font-family: 'Cinzel', serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        margin-top: 27vh;
+
+
+    }
+    .paragraph{
+        display: flex;
+        color: aliceblue;
+        text-align: center;
+    }
+   .about{
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+   }
+   @media screen and (max-width: 767px) and (orientation: portrait)
+ {
+    font-size: calc((1.6 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+}
