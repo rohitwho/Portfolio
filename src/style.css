@@ -16,6 +16,8 @@ body{
     text-decoration: none;
     font-size: 1rem;
 }
+
+
 #lint a:hover{
     text-decoration: underline;
     text-decoration-color: rgb(240, 210, 15) ;
@@ -38,7 +40,6 @@ margin: 0px;
 .second{
     
     color:rgb(245, 245, 245);
-   
     margin:0px;
 }
 
@@ -267,7 +268,7 @@ margin: 0px;
 /*====================media query=============*/
 
 
-  @media only screen and (min-width: 360px){
+  @media only screen and (min-width: 359px){
     #lint  a{
      
       font-size: 1.2rem;
@@ -301,6 +302,9 @@ margin: 0px;
     }
     
     .projects-cta {
+     display: flex;
+     justify-content: center;
+    
       grid-column: 3;
     }
     .form-control {
@@ -511,7 +515,3 @@ margin: 0px;
     
     
   
-   @media screen and (max-width: 767px) and (orientation: portrait){
-  
-    font-size: calc((1.6 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
-}
