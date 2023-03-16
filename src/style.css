@@ -14,7 +14,7 @@ body{
    padding: 20px ;
     color: rgb(235, 235, 235);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1rem;
 }
 #lint a:hover{
     text-decoration: underline;
@@ -31,7 +31,7 @@ body{
     justify-content: center;
     font-weight: 400px;
     font-size: 30px;
-     height: 1000px;
+     height: 1100px;
     padding: 140px 40px 0px 80px;
 margin: 0px;
 }
@@ -168,7 +168,11 @@ margin: 0px;
   text-transform: uppercase;
   color: rgb(245, 245, 245);
 }
-
+.projects-title:hover{
+  text-decoration: underline;
+  text-decoration-color: rgb(240, 210, 15) ;
+  text-underline-offset: 9px;
+}
 .paragraph{
   margin-bottom: 2rem;
   color: rgb(245, 245, 245);
@@ -266,7 +270,7 @@ margin: 0px;
   @media only screen and (min-width: 360px){
     #lint  a{
      
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     .main{
       height:450px;

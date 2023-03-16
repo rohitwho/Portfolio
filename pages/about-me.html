@@ -3,67 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Rohit.</title>
 
-</head>
+
+
 
 <body>
     <section class="about-me">
         <div class="container">
             <h2>About Me</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <img src="path/to/my/profile/picture.jpg" alt="My Profile Picture">
+                <div class="col">
+                    <img src="../images/profile.jpg" alt="My Profile Picture">
                 </div>
-                <div class="col-md-6">
-                    <p>Hi, my name is John Doe and I'm a web developer based in New York City. I have a passion for
+                <div class="col">
+                    <p>Hi, my name is Rohit Nayyar and I am Learning web developement. I have a passion for
                         creating beautiful, responsive websites and web applications that provide a great user
-                        experience. My skills include HTML, CSS, JavaScript, and various front-end frameworks like
-                        Bootstrap and React.</p>
-                    <p>When I'm not coding, you can usually find me playing basketball at the local gym or exploring new
+                        experience. .</p>
+                    <p>When I'm not coding, you can usually find me working out at the local gym or exploring new
                         coffee shops around the city.</p>
-                    <a href="path/to/my/resume.pdf" class="btn btn-primary">Download Resume</a>
+                    <a href="#" class="btn btn-primary">Download Resume</a>
                 </div>
             </div>
         </div>
     </section>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
+
+        body {
+            font-family: Cinzel,sans-serif;
+        }
+
         .about-me {
-            background-color: #f8f8f8;
-            padding: 80px 0;
+            background-color: #4d4c4e;
+            font-weight: 400;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+            margin: 1rem 1rem;
+            height: 500px;
+            padding: 40px 40px;
+            border-radius: 2%;
+            color: #fff;
         }
 
         .about-me h2 {
             text-align: center;
             font-size: 48px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         .about-me img {
-            width: 100%;
-            border-radius: 50%;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            margin: auto;
+            width: 18%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
         }
 
         .about-me p {
-            font-size: 18px;
+            font-size: 20px;
             line-height: 1.5;
             margin-bottom: 30px;
         }
 
         .about-me .btn {
             display: block;
-            margin-top: 30px;
+            margin-top: 50px;
             font-size: 18px;
-            padding: 15px 30px;
+            padding: 15px 15px;
             border-radius: 30px;
             text-align: center;
         }
 
         .about-me .btn-primary {
-            background-color: #4CAF50;
+            background-color: #4d4c4e;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
             color: #fff;
         }
     </style>
