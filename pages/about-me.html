@@ -4,29 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
-    <link rel="stylesheet" href="../src/style.css">
+    <title>About Rohit.</title>
+
 </head>
 
-<body class="about">
-    <header>
-        <ul>
+<body>
+    <section class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="path/to/my/profile/picture.jpg" alt="My Profile Picture">
+                </div>
+                <div class="col-md-6">
+                    <p>Hi, my name is John Doe and I'm a web developer based in New York City. I have a passion for
+                        creating beautiful, responsive websites and web applications that provide a great user
+                        experience. My skills include HTML, CSS, JavaScript, and various front-end frameworks like
+                        Bootstrap and React.</p>
+                    <p>When I'm not coding, you can usually find me playing basketball at the local gym or exploring new
+                        coffee shops around the city.</p>
+                    <a href="path/to/my/resume.pdf" class="btn btn-primary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <a class="home" href="index.html">Home</a>
-        </ul>
-    </header>
-    <div class="writing">
-        <h2>About Me</h2>
-    </div>
-    <div class="paragraph">
-        <p>udKYFYEFGKwgfkiWUGLugflE;GLgligli grlilgfliugfiljGAYFLYag;oewg;ewyyuwrh lirg frguwfuiwfl kegriuqwegfp2ge8l
-            g29g 2grp 2;rb;i 2ukwegfuwb;fpiq</p>
-    </div>
-    <footer>
-        <ul class="footer">
-            <a href="https://www.linkedin.com/in/rohit-nayyar-373b7b167/">Linked In</a>
-            <a href="https://github.com/rohitwho">Github</a>
-            <a href="https://twitter.com/RohitNa36229052">Twitter</a>
-        </ul>
-    </footer>
+    <style>
+        .about-me {
+            background-color: #f8f8f8;
+            padding: 80px 0;
+        }
+
+        .about-me h2 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
+        .about-me img {
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .about-me p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .about-me .btn {
+            display: block;
+            margin-top: 30px;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+        .about-me .btn-primary {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+    </style>
+
 </body>
