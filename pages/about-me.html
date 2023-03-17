@@ -7,29 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Rohit.</title>
 
-
-
-
-<body>
-    <section class="about-me">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="row">
-                <div class="col">
-                    <img src="../images/profile.jpg" alt="My Profile Picture">
-                </div>
-                <div class="col">
-                    <p>Hi, my name is Rohit Nayyar and I am Learning web developement. I have a passion for
-                        creating beautiful, responsive websites and web applications that provide a great user
-                        experience. .</p>
-                    <p>When I'm not coding, you can usually find me working out at the local gym or exploring new
-                        coffee shops around the city.</p>
-                    <a href="#" class="btn btn-primary">Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap');
 
@@ -44,7 +21,7 @@
             margin: 1rem 1rem;
             height: 500px;
             padding: 40px 40px;
-            border-radius: 2%;
+            border-radius: 20px ;
             color: #fff;
         }
 
@@ -84,6 +61,48 @@
             box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
             color: #fff;
         }
+        @media only screen and (max-width:350px){
+.about-me{
+    height: 860px;
+    line-height: normal;
+ 
+}
+.about-me img{
+    width:40%
+}
+        }
+        @media only screen and (max-width:280px){
+.about-me{
+    height: 1100px;
+    line-height: normal;
+ 
+}
+.about-me img{
+    width:40%
+}
+        }
     </style>
+
+<body>
+    <section class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col">
+                    <img src="../images/profile.jpg" alt="My Profile Picture">
+                </div>
+                <div class="col">
+                    <p>Hi, my name is Rohit Nayyar and I am Learning web developement. I have a passion for
+                        creating beautiful, responsive websites and web applications that provide a great user
+                        experience. .</p>
+                    <p>When I'm not coding, you can usually find me working out at the local gym or exploring new
+                        coffee shops around the city.</p>
+                    <a href="#" class="btn btn-primary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
 
 </body>
